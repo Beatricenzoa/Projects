@@ -4,7 +4,7 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 body{
-  margin-top: 90px;
+  margin: 90px 0;
 }
 h1 {
   font-size: 96px;
@@ -80,9 +80,20 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
-@media (max-width:576px) {
+@media (max-width:768px) {
   .Launch-button{
     display: block;
+    text-align: center;
+  }
+  h1{
+font-size: 38px;
+text-align: center;
+  }
+  h2{
+    font-size: 32px;
+text-align: center;
+  }
+  p{
     text-align: center;
   }
 }
